@@ -61,3 +61,4 @@ def test_cli_end_to_end(tmp_path):
     text = out.read_text(encoding="utf-8")
     assert text.startswith("# Incident Report")
     assert "T1110.001" in text
+    assert b"\r\n" not in out.read_bytes()

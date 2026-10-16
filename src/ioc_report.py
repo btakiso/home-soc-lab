@@ -167,7 +167,7 @@ def main(argv=None):
     report = build_report(records, skipped, os.path.basename(args.input))
     out_dir = os.path.dirname(os.path.abspath(args.out))
     os.makedirs(out_dir, exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as handle:
+    with open(args.out, "w", encoding="utf-8", newline="\n") as handle:
         handle.write(report)
     print("wrote %s (%d events, %d skipped)" % (args.out, len(records), skipped))
     return 0
