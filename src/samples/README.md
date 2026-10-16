@@ -1,6 +1,6 @@
 # Sample Logs
 
-Fictional lab data on the PRD addressing plan (192.168.56.0/24, attacker
+Fictional lab data on the lab addressing plan (192.168.56.0/24, attacker
 192.168.56.30). The same 17 events in two formats, so the parser and report
 generator run with no lab at all:
 

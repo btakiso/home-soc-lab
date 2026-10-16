@@ -1,6 +1,6 @@
 # Scenario: Port Scan
 
-Status: placeholder. Written and executed in Phase 3 of the PRD (FR-3.1):
+Status: placeholder. Written and executed in Phase 3:
 Nmap service scan from soc-attacker (Kali, 192.168.56.30) against both
 targets. The final doc will list the objective, exact commands, expected
 Snort alerts, expected Splunk events, and cleanup steps.

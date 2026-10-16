@@ -1,4 +1,4 @@
-<!-- Placeholder, Phase 4 of the PRD (FR-4.2).
+<!-- Placeholder, Phase 4.
      Dashboard "Attack Triage": one panel per attack class (port scan, brute
      force, lateral movement) with src, dest, dest_port, user, signature,
      count. The real Simple XML export lands here after Phase 3 runs. -->

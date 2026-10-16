@@ -1,6 +1,6 @@
 """Generate a Markdown IOC incident report from a Snort log or Splunk CSV.
 
-Usage (PRD FR-6.3):
+Usage:
     python src/ioc_report.py --input <log file> --out <report.md>
 
 Standard library only. Input format is detected from the file extension
@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from parse_logs import classify, extract_iocs, parse_file  # noqa: E402
 
-# MITRE ATT&CK mapping per PRD section 7, keyed by attack class.
+# MITRE ATT&CK mapping, keyed by attack class.
 MITRE = {
     "port_scan": [
         ("T1046", "Network Service Discovery"),

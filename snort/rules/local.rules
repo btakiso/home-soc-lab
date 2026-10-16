@@ -1,7 +1,7 @@
 # SOC lab custom Snort rules.
-# Status: placeholder. The rules themselves are written in Phase 3 of the PRD:
-# FR-2.1 port scan (SYN sweep), FR-2.2 brute force (SSH 22 / RDP 3389),
-# FR-2.3 lateral movement (SMB 445 / WinRM 5985), each with a unique SID, a
+# Status: placeholder. The rules themselves are written in Phase 3:
+# port scan (SYN sweep), brute force (SSH 22 / RDP 3389),
+# lateral movement (SMB 445 / WinRM 5985), each with a unique SID, a
 # plain-English msg, a classtype, and a comment linking to its playbook.
 # The sample alerts in src/samples/ use the signature text these rules will
 # carry: "SOC LAB SCAN ...", "SOC LAB BRUTE ...", "SOC LAB LATERAL ...".

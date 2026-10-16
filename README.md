@@ -6,7 +6,7 @@ attack scenarios run from Kali Linux, written triage playbooks, and Python
 automation that parses the logs and generates IOC incident reports.
 
 The lab covers three attack classes end to end: port scans, brute-force
-attempts, and lateral movement. Full requirements live in [PRD.md](PRD.md).
+attempts, and lateral movement.
 
 ## Architecture
 
@@ -76,9 +76,7 @@ actions keyed to each attack class. A real generated example is at
 
 | Path | Contents |
 |---|---|
-| `PRD.md` | Product requirements: goals, architecture, build phases, acceptance criteria |
 | `docs/build-guide.md` | Step-by-step VM and tool build (Phase 2) |
-| `docs/demo-runbook.md` | The 10-minute interview demo script (Phase 5) |
 | `docs/playbooks/` | Triage playbooks, one per attack class (Phase 4) |
 | `docs/screenshots/` | Screenshots from real lab runs (Phase 5) |
 | `snort/rules/local.rules` | Custom Snort detection rules (Phase 3) |
@@ -115,7 +113,7 @@ actions keyed to each attack class. A real generated example is at
   rules files are placeholders; no scenario has been run yet.
 - Phase 4, Splunk dashboards, saved searches, and playbooks: planned. The
   dashboard files are placeholder exports, not working content.
-- Phase 5, screenshots, rehearsed demo runbook, final README: planned.
+- Phase 5, screenshots from real runs, an end-to-end demo, final README: planned.
 
 Nothing beyond Phase 1 is claimed. Claims ship only when the phase that
-proves them is complete (PRD section 11).
+proves them is complete.

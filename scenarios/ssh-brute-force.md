@@ -1,6 +1,6 @@
 # Scenario: SSH Brute Force
 
-Status: placeholder. Written and executed in Phase 3 of the PRD (FR-3.2):
+Status: placeholder. Written and executed in Phase 3:
 Hydra against soc-target-linux (192.168.56.21) with a small wordlist and a
 known lab test account. The final doc will list the objective, exact
 commands, expected Snort alerts, expected Splunk events, and cleanup steps.
