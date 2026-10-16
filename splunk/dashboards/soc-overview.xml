@@ -1,0 +1,4 @@
+<!-- Placeholder, Phase 4 of the PRD (FR-4.1).
+     Dashboard "SOC Overview": events by index over time, top talkers, alert
+     counts by class. The real Simple XML export lands here after the lab is
+     built and the dashboard exists in Splunk. Nothing is claimed before then. -->
